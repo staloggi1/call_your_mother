@@ -1,0 +1,39 @@
+@import "css/normalize.css";
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 700px;
+}
+.navList {
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+}
+.nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+}
+img {
+    align-self: center;
+}
+.alerts {
+    background-color: rgb(255,116,118);
+}
+.calendar {
+    background-color: rgb(135,255,98);
+}
+.contacts {
+    background-color: rgb(254,255,199);
+}
+.settings {
+    background-color: rgb(139,255,254);
+}
+h2 {
+    padding: 0%;
+    margin: 0%;
+}
