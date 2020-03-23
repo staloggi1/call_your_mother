@@ -1,15 +1,24 @@
-@import "css/normalize.css";
-ul {
-    list-style-type: none;
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+nav.appContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 500px;
-    height: 700px;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
+    font-size: 1vw;
 }
-.navList {
-    height: 50%;
+div.navList {
     width: 50%;
+    height: 50%;
+    display: inline-block;
     justify-content: center;
 }
 .nav {
@@ -20,6 +29,22 @@ ul {
 }
 img {
     align-self: center;
+}
+.top {
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+}
+.bottom {
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+}
+.right {
+    border-left: 1px solid black;
+    border-right: 2px solid black;
+}
+.left {
+    border-right: 1px solid black;
+    border-left: 2px solid black;
 }
 .alerts {
     background-color: rgb(255,116,118);
@@ -32,6 +57,10 @@ img {
 }
 .settings {
     background-color: rgb(139,255,254);
+}
+.homeNavImg{
+    max-width: 96px;
+    max-height: 96px;
 }
 h2 {
     padding: 0%;
